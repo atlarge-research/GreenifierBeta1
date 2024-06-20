@@ -1,0 +1,89 @@
+{
+    "clusters":
+    [
+        {
+            "name": "C01",
+            "hosts" :
+            [
+                {
+                    "name": "H01",
+                    "cpu":
+                    {
+                        "coreCount": 32,
+                        "coreSpeed": 3200
+                    },
+                    "memory": {
+                        "memorySize": 256000
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C02",
+            "hosts" :
+            [
+                {
+                    "name": "H02",
+                    "cpu":
+                        {
+                            "coreCount": 8,
+                            "coreSpeed": 2930
+                        },
+                    "memory": {
+                        "memorySize": 64000
+                    }
+                },
+                {
+                    "name": "H03",
+                    "cpu":
+                        {
+                            "coreCount": 8,
+                            "coreSpeed": 4000
+                        },
+                    "memory": {
+                        "memorySize": 64000
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C03",
+            "hosts" :
+            [
+                {
+                    "name": "H03",
+                    "cpu":
+                        {
+                            "coreCount": 16,
+                            "coreSpeed": 3200
+                        },
+                    "memory": {
+                        "memorySize": 128000
+                    }
+                },
+                {
+                    "name": "H04",
+                    "cpu":
+                        {
+                            "coreCount": 32,
+                            "coreSpeed": 3200
+                        },
+                    "memory": {
+                        "memorySize": 128000
+                    }
+                },
+                {
+                    "name": "H05",
+                    "cpu":
+                        {
+                            "coreCount": 8,
+                            "coreSpeed": 3200
+                        },
+                    "memory": {
+                        "memorySize": 128000
+                    }
+                }
+            ]
+        }
+    ]
+}

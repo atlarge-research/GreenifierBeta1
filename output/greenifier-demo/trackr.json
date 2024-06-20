@@ -1,0 +1,38 @@
+[{
+    "id": 0,
+    "name": "greenifier-demo",
+    "topologies": [
+        {
+            "pathToFile": "resources/topologies/small.json"
+        }
+    ],
+    "workloads": [
+        {
+            "pathToFile": "resources/workloads/bitbrains-small",
+            "type": "ComputeWorkload"
+        }
+    ],
+    "carbonTracePaths": [
+        "resources/carbon_intensity.parquet"
+    ],
+    "outputFolder": "output/greenifier-demo"
+},
+{
+    "id": 1,
+    "name": "greenifier-demo",
+    "topologies": [
+        {
+            "pathToFile": "resources/topologies/large.json"
+        }
+    ],
+    "workloads": [
+        {
+            "pathToFile": "resources/workloads/bitbrains-small",
+            "type": "ComputeWorkload"
+        }
+    ],
+    "carbonTracePaths": [
+        "resources/carbon_intensity.parquet"
+    ],
+    "outputFolder": "output/greenifier-demo"
+}]
